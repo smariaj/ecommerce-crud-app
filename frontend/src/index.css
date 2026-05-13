@@ -1,0 +1,43 @@
+body {
+  margin: 0;
+  font-family: Arial;
+  background: #f4f4f4;
+}
+
+.container {
+  padding: 20px;
+}
+
+.products {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.card {
+  background: white;
+  padding: 15px;
+  width: 220px;
+  border-radius: 10px;
+}
+
+button {
+  padding: 8px 12px;
+  cursor: pointer;
+}
+
+.cart-section {
+  margin-top: 40px;
+}
+
+.cart-item {
+  margin-bottom: 10px;
+}
+
+textarea,
+select {
+  width: 300px;
+  padding: 10px;
+  margin-bottom: 10px;
+  display: block;
+}
